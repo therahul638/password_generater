@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(145deg , rgb(28, 102, 117) , black);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    /* text-align: center; */
+}
+.container{
+    border: 2px solid white;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 24px;
+    border-radius: 10px;
+    /* box-shadow: 8px 8px 4px #909090 , 8px 8px 0px #575757; */
+}
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+.inputbox{
+    display: flex;
+    position: relative;
+}
+.box{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 18px;
+    left: 280px;
+    cursor: pointer;
+}
+.passbox{
+    width: 300px;
+    margin-block: 8px;      /* it is use for top and bottom margin set */
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: fff;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+    font-size: 20px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.row h3, .row label{
+    flex-basis: 100%; /* fixed the value in percentage */
+}
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(9, 50, 197);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 24px;
+    margin-block: 8px;
+    outline: none;
+    font-weight: 700;
+}
+button:hover{
+    background-color: blue;
+}
